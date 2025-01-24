@@ -10,10 +10,10 @@ main(function() {
   // ex. require things here
   echo "Start of script\n";
 
-  // Example: Triggers a graceful error
+  // Example: Triggers a graceful error, n
   unknown_function_abc();
 
-    echo "End of script\n";
+  echo "End of script\n";
 });
 //*/
 
