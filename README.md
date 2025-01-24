@@ -5,16 +5,13 @@ A main function to wrap all your PHP code in that takes care of error handling, 
 <?php
 
 /*
-// example
+// example, could cover your entire index.php 
 main(function() {
+  // ex. require things here
   echo "Start of script\n";
-    // Example: Trigger an exception
-    if (!file_exists("somefile.txt")) {
-        throw new Exception("File not found!");
-    }
 
-    // Example: Trigger a warning
-    $result = 1 / 0;
+  // Example: Triggers a graceful error
+  unknown_function_abc();
 
     echo "End of script\n";
 });
